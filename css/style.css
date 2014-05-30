@@ -25,9 +25,13 @@
 }
 
 #headshot-small {
-  width: 2em;
+  width: 16em;
   border-radius: 100%;
   margin-right: 0.5em;
+}
+
+.my-center {
+  text-align: center;
 }
 
 #based-in {
@@ -74,4 +78,14 @@ nav ul li a {
 nav ul li a:hover {
   color: #000;
   background-color: #fff;
+}
+
+ul#my-icon-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+}
+
+ul#my-icon-list li {
+  display: inline;
 }
