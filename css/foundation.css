@@ -43,7 +43,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue Thin", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -145,6 +145,10 @@ select {
   padding-right: 0.9375rem;
   width: 100%;
   float: left; }
+
+/*********************/
+/*** Small screens ***/
+/*********************/
 
 @media only screen {
   .small-push-0 {
@@ -374,6 +378,12 @@ select {
   .column.small-uncentered.opposite,
   .columns.small-uncentered.opposite {
     float: right; } }
+
+/**********************/
+/*** Medium screens ***/
+/**********************/
+
+/* min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) {
   .medium-push-0 {
     position: relative;
@@ -722,6 +732,12 @@ select {
     position: relative;
     right: 91.66667%;
     left: auto; } }
+
+/*********************/
+/*** Large screens ***/
+/*********************/
+
+/* min-width 1025px, Large screens */
 @media only screen and (min-width: 64.063em) {
   .large-push-0 {
     position: relative;
@@ -1205,6 +1221,9 @@ button, .button {
         color: white; }
       button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
         background-color: #f04124; }
+
+
+
 
 @media only screen and (min-width: 40.063em) {
   button, .button {

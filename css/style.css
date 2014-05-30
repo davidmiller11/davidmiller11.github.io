@@ -1,0 +1,43 @@
+/* style.css */
+
+#my-name {
+/*  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: 2;*/
+  /*font-size: 5em;*/
+}
+
+#my-name {
+/*  -webkit-animation-duration: 3s;
+  -webkit-animation-name: slidein;*/
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+#headshot-small {
+  width: 2em;
+  border-radius: 100%;
+  margin-right: 0.5em;
+}
+
+#based-in {
+  /*color: gray;*/
+}
+
+section.main-section {
+  margin-top: 80px;
+}
+
+#main-header {
+  text-align: center;
+}

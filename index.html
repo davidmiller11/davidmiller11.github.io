@@ -3,164 +3,200 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
+    <title>David L Miller Development</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/vendor/modernizr.js"></script>
+
   </head>
   <body>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="large-12 columns">
-      	<div class="panel">
-	        <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-	        <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-	        <p>Once you've exhausted the fun in this document, you should check out:</p>
-	        <div class="row">
-	        	<div class="large-4 medium-4 columns">
-	    		<p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-	    	</div>
-	        	<div class="large-4 medium-4 columns">
-	        		<p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-	        	</div>
-	        	<div class="large-4 medium-4 columns">
-	        		<p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-	        	</div>        
-					</div>
-      	</div>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
+  <div class="off-canvas-wrap" data-offcanvas>
+    <div class="inner-wrap">
+    <div class="my-nav fixed">
+      <nav class="tab-bar"> <!-- hide-for-medium-up --> 
+        <section class="left-small">
+          <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+        </section>
 
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
+        <section class="middle tab-bar-section">
+          <a href="#top"><h1 class="title"><img id='headshot-small' src="img/headshot_small.png" alt="">David L Miller</h1></a>
+        </section>
+      </nav>
+    </div>
+      <aside class="left-off-canvas-menu">
+        <ul class="off-canvas-list">
+          <li><label>David L Miller</label></li>
+          <li><a href="#top">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#portfolio">portfolio</a></li>
+        </ul>
+      </aside>
+
+      <section class="main-section">
         
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-				  <div class="row">
-				    <div class="large-12 columns">
-				      <label>Input Label</label>
-				      <input type="text" placeholder="large-12.columns" />
-				    </div>
-				  </div>
-				  <div class="row">
-				    <div class="large-4 medium-4 columns">
-				      <label>Input Label</label>
-				      <input type="text" placeholder="large-4.columns" />
-				    </div>
-				    <div class="large-4 medium-4 columns">
-				      <label>Input Label</label>
-				      <input type="text" placeholder="large-4.columns" />
-				    </div>
-				    <div class="large-4 medium-4 columns">
-				      <div class="row collapse">
-				        <label>Input Label</label>
-				        <div class="small-9 columns">
-				          <input type="text" placeholder="small-9.columns" />
-				        </div>
-				        <div class="small-3 columns">
-				          <span class="postfix">.com</span>
-				        </div>
-				      </div>
-				    </div>
-				  </div>
-				  <div class="row">
-				    <div class="large-12 columns">
-				      <label>Select Box</label>
-				      <select>
-				        <option value="husker">Husker</option>
-				        <option value="starbuck">Starbuck</option>
-				        <option value="hotdog">Hot Dog</option>
-				        <option value="apollo">Apollo</option>
-				      </select>
-				    </div>
-				  </div>
-				  <div class="row">
-				    <div class="large-6 medium-6 columns">
-				      <label>Choose Your Favorite</label>
-				      <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-				      <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-				    </div>
-				    <div class="large-6 medium-6 columns">
-				      <label>Check these out</label>
-				      <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-				      <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-				    </div>
-				  </div>
-				  <div class="row">
-				    <div class="large-12 columns">
-				      <label>Textarea Label</label>
-				      <textarea placeholder="small-12.columns"></textarea>
-				    </div>
-				  </div>
-				</form>
-      </div>     
+        <a name="top"></a>
+        <header id="main-header" class="row">
+          <div class="small-12 columns">
+            <h1 id="my-name">David L Miller</h1>
+            <h3 id="my-title">Full Stack Web Developer</h3>
+            <h3 id='based-in'>New York City</h3>
+          </div>
+        </header>
 
-      <div class="large-4 medium-4 columns">
-			  <h5>Try one of these buttons:</h5>
-			  <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-				<div class="panel">
-        	<h5>So many components, girl!</h5>
-        	<p>A whole kitchen sink of goodies comes with Foundation. Checkout the docs to see them all, along with details on making them your own.</p>
-        	<a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
-        </div>
-      </div>
-    </div>
-    
+        <!-- home -->
+        <header class="row">
+          <div class="small-12 columns">
+            <h3>home</h3>
+          </div>
+        </header>
+        <div class="row">
+          <div class="small-12 medium-6 columns">
+            <h3>welcome</h3>
+            <p>Yagshemash! Democracy is very different in US and A from Kazakhstan. In America, woman CAN vote, but horse - CANNOT!</p>
+          </div>
+          <div class="small-12 medium-6 columns">
+            <h3>background</h3>
+              <p>It is three in the morning, and I am in the nest of Jews. They have cleverly shifted their shapes; one of them has taken the form of a little old woman. You can barely see her horns! She has tried to poison me already. These rats are very clever.</p>
+              <p>In Kazakhstan, the favorite hobbies are disco dancing, archery, rape, and table tennis.</p>
+          </div>
+        </div> <!-- END ROW PANEL -->
+        
+        <!-- about -->
+        <a name="about"></a>
+        <header class="row">
+          <div class="small-12 columns">
+            <h3>about</h3>
+          </div>
+        </header>
+        <div class="row">
+          <div class="small-12 medium-6 columns">
+            <h3>technologies</h3>
+            <p>Yagshemash! Democracy is very different in US and A from Kazakhstan. In America, woman CAN vote, but horse - CANNOT!</p>
+          </div>
+          <div class="small-12 medium-6 columns">
+            <h3>contact</h3>
+              <p>It is three in the morning, and I am in the nest of Jews. They have cleverly shifted their shapes; one of them has taken the form of a little old woman. You can barely see her horns! She has tried to poison me already. These rats are very clever.</p>
+              <p>In Kazakhstan, the favorite hobbies are disco dancing, archery, rape, and table tennis.</p>
+          </div>
+        </div> <!-- END ROW PANEL -->
+
+        <!-- portfolio -->
+        <a name="portfolio"></a>
+        <header class="row">
+          <div class="small-12 columns">
+            <h3>portfolio</h3>
+          </div>
+        </header>
+        <div class="row">
+          
+          <ul data-orbit data-options="slide_number:false">
+            <li>
+              <img src="img/jammer.png" alt="Jammer">
+              <div class="orbit-caption">Jammer</div>
+            </li>
+            <li>
+              <img src="img/tictacfoot.png" alt="TicTacFoot">
+              <div class="orbit-caption">TicTacFoot</div>
+            </li>
+            <li>
+              <img src="img/know_yo_city.png" alt="KnowYoCity">
+              <div class="orbit-caption">KnowYoCity</div>
+            </li>
+          </ul>
+
+        </div> <!-- END ROW PANEL -->
+
+        <footer class="row">
+          THIS IS MY FOOTER
+        </footer>
+
+      </section>
+
+    <a class="exit-off-canvas"></a>
+
+    </div> <!-- END INNER-WRAP -->
+  </div> <!-- END OFF-CANVAS-WRAP -->
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
     </script>
+    <script src="js/app.js"></script>
   </body>
 </html>
+
+<!-- <h3 data-magellan-destination="js">David L. Miller</h3>
+
+<div class="row">
+  <div class="medium-12 columns">
+    <nav data-magellan-expedition="fixed">
+      <ul class="sub-nav">
+        <li data-magellan-arrival="welcome"><a href="#welcome"><img id='headshot-small' src="img/headshot_small.png" alt=""></a></li>
+        <li data-magellan-arrival="aaa"><a href="#about">about</a></li>
+        <li data-magellan-arrival="bbb"><a href="#portfolio">portfolio</a></li>
+        <li data-magellan-arrival="ccc"><a href="#resume">resume</a></li>
+        <li data-magellan-arrival="ddd"><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+<div class="row">
+  <div class="medium-12 columns">
+    
+  <a name="welcome"></a>
+  <h3 data-magellan-destination="welcome">welcome</h3>
+
+    <p>I am a full-stack web developer based in New York City, and a recent graduate of the Web Development Immersive bootcamp at General Assembly.</p>
+
+  <a name="about"></a>
+  <h3 data-magellan-destination="aaa">about</h3>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+
+  <a name="portfolio"></a>
+  <h3 data-magellan-destination="bbb">portfolio</h3>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+
+  <a name="resume"></a>
+  <h3 data-magellan-destination="ccc">resume</h3>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+
+  <a name="contact"></a>
+  <h3 data-magellan-destination="ddd">contact</h3>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, consequuntur, quos, veritatis, est corporis natus similique eum nobis a officiis architecto optio! Itaque, labore, mollitia et veritatis enim dolore facere.</p>
+
+  </div>
+</div>
+ -->
