@@ -24,7 +24,7 @@
   }
 }
 
-#headshot-small {
+#my-headshot {
   width: 16em;
   border-radius: 100%;
   margin-right: 0.5em;
@@ -32,18 +32,6 @@
 
 .my-center {
   text-align: center;
-}
-
-#based-in {
-  /*color: gray;*/
-}
-
-section.main-section {
-  margin-top: 80px;
-}
-
-#main-header {
-  /*text-align: center;*/
 }
 
 h3.my-section-title {
@@ -88,4 +76,66 @@ ul#my-icon-list {
 
 ul#my-icon-list li {
   display: inline;
+}
+
+body {
+/*  background: url('../img/white-boarding01.jpg');
+  background-size: cover;*/
+  background-color: #7E8AA2;
+  color: #263248;
+}
+
+.single-item {
+  /*width: 80%;*/
+  /*border: solid 5px red;*/
+  margin: 0 auto;
+}
+
+#my-slideshow {
+  margin-bottom: 100px;
+}
+
+.menu-icon {
+  color: red;
+}
+
+.button {
+  width: 100%;
+  border-radius: 10px;
+  color: #7E8AA2; 
+  background-color: #263248;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #263248;
+}
+
+#intro {
+  margin-top: 100px;
+}
+
+.tab-bar {
+  background-color: #263248;
+}
+
+a {
+  color: #263248;
+}
+
+footer {
+  height: 200px;
+}
+
+.my-tab-for-big {
+  height: 60px;
+  background-color: #263248;
+  color: #7E8AA2;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.tab-link {
+  margin-bottom: 100px;
+  display: block;
 }

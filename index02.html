@@ -17,8 +17,7 @@
   <div class="off-canvas-wrap" data-offcanvas>
     <div class="inner-wrap">
     
-      <!-- tab bar for small screens -->
-      <div class="tab-bar hide-for-medium-up"> <!-- hide-for-medium-up --> 
+      <div class="tab-bar"> <!-- hide-for-medium-up --> 
         <section class="left-small">
           <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
         </section>
@@ -26,11 +25,6 @@
         <section class="middle tab-bar-section">
           <h1 class="title">David L Miller | Developer</h1>
         </section>
-      </div>
-
-      <!-- tab bar for medium and up screens -->
-      <div class="my-tab-for-big hide-for-small">
-        HELLO
       </div>
    
       <aside class="left-off-canvas-menu">
@@ -44,22 +38,58 @@
 
       <section class="main-section">
         
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <a name="top"></a>
         <section id="intro" class="row">
           <div class="medium-6 columns my-center">
-            <img id="my-headshot" src="img/headshot_small.png" alt="">
+            <img id="headshot-small" src="img/headshot_small.png" alt="">
           </div>
           <div class="medium-6 columns small-text-center medium-text-left">
-            <h1 id="my-name">hi, i'm dave.</h1>
-            <h3>i'm a full-stack developer based in new york city.</h3>
-            <div class="medium-4 columns"><a href="#" class="button">about</a></div>
-            <div class="medium-4 columns"><a href="#portfolio" class="button">portfolio</a></div>
-            <div class="medium-4 columns"><a href="#contact" class="button">contact</a></div>
-            
+            <h1 id="my-name">Hi, I'm Dave.</h1>
+            <h3 id="my-title">I'm a full-stack developer based in New York City.</h3>
+            <ul id='my-icon-list'>
+              <li><a href="mailto:davidmiller11@gmail.com"><i class="fa fa-2x fa-envelope-square"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/davidmil" target="_blank"><i class="fa fa-2x fa-linkedin-square"></i></a></li>
+              <li><a href="https://github.com/davidmiller11" target="_blank"><i class="fa fa-2x fa-github-square"></i></a></li>
+            </ul>
           </div>
         </section>
 
         <!-- home -->
+        <header class="my-header row">
+          <div class="small-12 columns">
+            <h3 class='my-section-title'><b>home</b></h3>
+          </div>
+        </header>
+        <div class="row">
+          <div class="small-12 medium-6 columns">
+            <h4 class='my-section-subtitle'><b>welcome</b></h4>
+            <p>I'm a full stack web developer who likes short stack banana pancakes.  I recently completed the Web Development Immersive bootcamp at General Assembly in NYC.</p>
+          </div>
+          <div class="small-12 medium-6 columns">
+            <h4 class='my-section-subtitle'><b>background</b></h4>
+            <p>In 2008 I graduated from the University of Michigan's Ross School of Business with a Bachelor's degree in Business Administration.  After more than four years working as a financial analyst in ecommerce, I quit my job and spent the next eight months exploring new cultures while I backpacked through Southeast Asia.  Then I found GA.</p>
+          </div>
+        </div> <!-- END ROW PANEL -->
+        
+        <!-- about -->
+        <a name="about"></a>
         <header class="my-header row">
           <div class="small-12 columns">
             <h3 class='my-section-title'><b>about</b></h3>
@@ -67,23 +97,23 @@
         </header>
         <div class="row">
           <div class="small-12 medium-6 columns">
-            <h4 class='my-section-subtitle'><b>welcome</b></h4>
-            <p>I'm a full stack web developer with a taste for short stack pancakes.  I recently completed the Web Development Immersive bootcamp at General Assembly in NYC, and I'm currently seeking freelance </p>
+            <h4 class='my-section-subtitle'><b>technologies</b></h4>
+            <p>Yagshemash! Democracy is very different in US and A from Kazakhstan. In America, woman CAN vote, but horse - CANNOT!</p>
           </div>
           <div class="small-12 medium-6 columns">
-            <h4 class='my-section-subtitle'><b>background</b></h4>
-            <p>In 2008 I graduated from the University of Michigan's Ross School of Business with a Bachelor's degree in Business Administration.  After more than four years working as a financial analyst in ecommerce, I quit my job and spent the next eight months exploring new cultures while I backpacked through Southeast Asia.  Then I found GA.</p>
+            <h4 class='my-section-subtitle'><b>contact</b></h4>
+              <p>I'm most easily reached by <a href="mailto:davidmiller11@gmail.com">email</a>.</p>
           </div>
         </div> <!-- END ROW PANEL -->
 
         <!-- portfolio -->
-        <a class="tab-link" name="portfolio"></a>
+        <a name="portfolio"></a>
         <header class="my-header row">
           <div class="small-12 columns">
             <h3 class='my-section-title'><b>portfolio</b></h3>
           </div>
         </header>
-        <div class="row" id='my-slideshow'>
+        <div class="row">
           
           <div class="single-item">
             <div><img src="img/jammer.png" alt="Jammer"></div>
@@ -93,25 +123,8 @@
 
         </div> <!-- END ROW PANEL -->
 
-        <!-- contact -->
-        <a name="contact" class="tab-link"></a>
-        <header class="my-header row">
-          <div class="small-12 columns">
-            <h3 class='my-section-title'><b>contact</b></h3>
-          </div>
-        </header>
-        <div class="row">
-          <div class="small-12 columns">
-            <ul id='my-icon-list'>
-              <li><a href="mailto:davidmiller11@gmail.com"><i class="fa fa-2x fa-envelope-square"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/davidmil" target="_blank"><i class="fa fa-2x fa-linkedin-square"></i></a></li>
-              <li><a href="https://github.com/davidmiller11" target="_blank"><i class="fa fa-2x fa-github-square"></i></a></li>
-            </ul>
-          </div>
-        </div> <!-- END ROW PANEL -->
-
         <footer class="row">
-          
+          THIS IS MY FOOTER.  Call me, maybe?
         </footer>
 
       </section> <!-- END MAIN-SECTION -->
