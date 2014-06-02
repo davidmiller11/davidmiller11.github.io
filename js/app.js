@@ -11,12 +11,11 @@ $(document).ready(function(){
       slidesToScroll: 1
   });
 
-  scrollDist = 0;
-
   window.onscroll = function (event) {
     scrollDist = $('body').scrollTop();
-    console.log(scrollDist);
-    $('#my-headshot').css('transform','rotate('+scrollDist+'deg)');
+    if ($('body').width() > 500) {
+      $('#my-headshot').css('transform','rotate('+scrollDist+'deg)');
+    }
   };
 
 });
