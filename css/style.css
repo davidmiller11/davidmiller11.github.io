@@ -183,3 +183,7 @@ footer {
 .slide-links i {
   margin-right: 5px;
 }
+
+ul.slick-dots {
+  margin-left: 0;
+}
